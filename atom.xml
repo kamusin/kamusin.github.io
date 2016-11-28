@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Because sometimes is not ok...</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.korporation.cl/"/>
+  <updated>2016-11-27T12:19:44.000Z</updated>
+  <id>http://www.korporation.cl/</id>
+  
+  <author>
+    <name>Victor Vargas</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hola</title>
+    <link href="http://www.korporation.cl/es/2016/11/27/hola/"/>
+    <id>http://www.korporation.cl/es/2016/11/27/hola/</id>
+    <published>2016-11-27T12:19:07.000Z</published>
+    <updated>2016-11-27T12:19:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hola, estos topicos seran en español!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hola, estos topicos seran en español!&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="Default" scheme="http://www.korporation.cl/tags/Default/"/>
+    
+      <category term="Spanish" scheme="http://www.korporation.cl/tags/Spanish/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>new beginning</title>
+    <link href="http://www.korporation.cl/en/2016/11/27/new-beginning/"/>
+    <id>http://www.korporation.cl/en/2016/11/27/new-beginning/</id>
+    <published>2016-11-27T12:16:27.000Z</published>
+    <updated>2016-11-27T12:18:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong> “Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.” </strong></p>
+</blockquote>
+<p><img src="/images/ending.jpg" alt="New Era"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;&lt;strong&gt; “Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.” &lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote
+    
+    </summary>
+    
+    
+      <category term="Default" scheme="http://www.korporation.cl/tags/Default/"/>
+    
+  </entry>
+  
+</feed>
