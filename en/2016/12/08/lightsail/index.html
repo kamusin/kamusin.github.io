@@ -3,20 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>new beginning | Because sometimes it is not ok...</title>
+  <title>AWS Lightsail overview | Because sometimes it is not ok...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="“Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.”">
+  <meta name="description" content="AWS Reinvent is over and lot of stuffs were launched last week, since you can go ahead and read all about the new instances, IA and other features here the purpose of this entry is just review and tal">
 <meta property="og:type" content="article">
-<meta property="og:title" content="new beginning">
-<meta property="og:url" content="http://www.korporation.cl/en/2016/11/27/new-beginning/index.html">
+<meta property="og:title" content="AWS Lightsail overview">
+<meta property="og:url" content="http://www.korporation.cl/en/2016/12/08/lightsail/index.html">
 <meta property="og:site_name" content="Because sometimes it is not ok...">
-<meta property="og:description" content="“Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.”">
-<meta property="og:image" content="http://www.korporation.cl/images/ending.jpg">
-<meta property="og:updated_time" content="2016-11-27T12:18:11.000Z">
+<meta property="og:description" content="AWS Reinvent is over and lot of stuffs were launched last week, since you can go ahead and read all about the new instances, IA and other features here the purpose of this entry is just review and tal">
+<meta property="og:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/availabilityzones.png">
+<meta property="og:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/instancetypes.png">
+<meta property="og:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/graphs.png">
+<meta property="og:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/dnszone.png">
+<meta property="og:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/vpcpeering.png">
+<meta property="og:updated_time" content="2016-12-09T09:10:13.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="new beginning">
-<meta name="twitter:description" content="“Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.”">
-<meta name="twitter:image" content="http://www.korporation.cl/images/ending.jpg">
+<meta name="twitter:title" content="AWS Lightsail overview">
+<meta name="twitter:description" content="AWS Reinvent is over and lot of stuffs were launched last week, since you can go ahead and read all about the new instances, IA and other features here the purpose of this entry is just review and tal">
+<meta name="twitter:image" content="http://www.korporation.cl/en/2016/12/08/lightsail/availabilityzones.png">
 <meta name="twitter:creator" content="@kamusin">
   
     <link rel="alternate" href="/atom.xml" title="Because sometimes it is not ok..." type="application/atom+xml">
@@ -83,10 +87,10 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-new-beginning" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-lightsail" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/en/2016/11/27/new-beginning/" class="article-date">
-  <time datetime="2016-11-27T12:16:27.000Z" itemprop="datePublished">2016-11-27</time>
+    <a href="/en/2016/12/08/lightsail/" class="article-date">
+  <time datetime="2016-12-07T21:56:44.000Z" itemprop="datePublished">2016-12-08</time>
 </a>
     
   </div>
@@ -97,7 +101,7 @@ ga('send', 'pageview');
         
   
     <h1 class="article-title" itemprop="name">
-      new beginning
+      AWS Lightsail overview
     </h1>
   
 
@@ -105,19 +109,28 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote><p><strong> “Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.” </strong></p>
-</blockquote>
-<p><img src="/images/ending.jpg" alt="New Era"></p>
+        <p>AWS Reinvent is over and lot of stuffs were launched last week, since you can go ahead and read all about the new instances, IA and other features <a href="https://aws.amazon.com/new/reinvent/?nc1=h_ls" target="_blank" rel="external">here</a> the purpose of this entry is just review and talk a bit about LightSail or also known as DigitalOcean killer. </p>
+
+<p>As you may know, AWS LightSail it is under preview and only available in the US and under Zones A, C, D and E at this stage (I’m sure it is going to be expanded soon to other regions). </p>
+<img src="/en/2016/12/08/lightsail/availabilityzones.png" alt="Zones Available" title="Zones Available">
+<p>Price starts from $5USD (same price as DigitalOcean) to $80USD and the instance type you can choose as base OS are Amazon Linux 2016.09.0 or Ubuntu 16.04 LTS, which are kind of limited but I got this is only a preview. However, there is an alternative to deploy a full application stack like for example Wordpress, Drupal, GitLab or the classic LAMP. </p>
+<img src="/en/2016/12/08/lightsail/instancetypes.png" alt="Instance Types Available" title="Instance Types Available">
+<p>Once you have deployed an instance, there is a panel that allows you to SSH using your browser, some basic metrics like CPU, Network utilisation, Firewall/SecurityGroup, Snapshots, History and Delete.</p>
+<img src="/en/2016/12/08/lightsail/graphs.png" alt="Graphs and Statistics" title="Graphs and Statistics">
+<p>Going back to the main Resorces page, you are allowed to create and hosted your DNS name with LightSail for free, all you need to do is click on “Create other resources –&gt; DNS Zone” and write down the name of your domain, after previous step completed you can go to your NIC and update your DNS servers, easy peasy. Another neat thing, the service allows you to create and assign up to 5 Public IP to your instance for “free”, so no need to extra payment for that.</p>
+<img src="/en/2016/12/08/lightsail/dnszone.png" alt="FREE DNS Zone" title="FREE DNS Zone">
+<p>In overal, AWS LightSail it is an alternative to all the other VPS providers out there with the advantage that you can integrate your instance with other AWS stacks like RDS, ElastiCache and so on, the magic happens when you enable the “VPC Peering option in your account”.</p>
+<img src="/en/2016/12/08/lightsail/vpcpeering.png" alt="Magic Button - VPC Peering" title="Magic Button - VPC Peering">
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.korporation.cl/en/2016/11/27/new-beginning/" data-id="ciwhkmbd800021c4hu833pqxm" class="article-share-link">Share</a>
+      <a data-url="http://www.korporation.cl/en/2016/12/08/lightsail/" data-id="ciwhkrawm0000up4hitt5133u" class="article-share-link">Share</a>
       
-        <a href="http://www.korporation.cl/en/2016/11/27/new-beginning/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="http://www.korporation.cl/en/2016/12/08/lightsail/#disqus_thread" class="article-comment-link">Comments</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Default/">Default</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AWS/">AWS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DevOps/">DevOps</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lightsail/">lightsail</a></li></ul>
 
     </footer>
   </div>
@@ -125,15 +138,11 @@ ga('send', 'pageview');
     
 <nav id="article-nav">
   
-    <a href="/en/2016/12/08/lightsail/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          AWS Lightsail overview
-        
-      </div>
-    </a>
   
+    <a href="/en/2016/11/27/new-beginning/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">new beginning</div>
+    </a>
   
 </nav>
 
@@ -216,7 +225,7 @@ ga('send', 'pageview');
 <script>
   var disqus_shortname = 'korporation-1';
   
-  var disqus_url = 'http://www.korporation.cl/en/2016/11/27/new-beginning/';
+  var disqus_url = 'http://www.korporation.cl/en/2016/12/08/lightsail/';
   
   (function(){
     var dsq = document.createElement('script');

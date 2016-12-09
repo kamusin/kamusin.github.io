@@ -82,6 +82,58 @@ ga('send', 'pageview');
       <div class="outer">
         <section id="main">
   
+    <article id="post-lightsail" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/en/2016/12/08/lightsail/" class="article-date">
+  <time datetime="2016-12-07T21:56:44.000Z" itemprop="datePublished">2016-12-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/en/2016/12/08/lightsail/">AWS Lightsail overview</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>AWS Reinvent is over and lot of stuffs were launched last week, since you can go ahead and read all about the new instances, IA and other features <a href="https://aws.amazon.com/new/reinvent/?nc1=h_ls" target="_blank" rel="external">here</a> the purpose of this entry is just review and talk a bit about LightSail or also known as DigitalOcean killer. </p>
+
+<p>As you may know, AWS LightSail it is under preview and only available in the US and under Zones A, C, D and E at this stage (I’m sure it is going to be expanded soon to other regions). </p>
+<img src="/en/2016/12/08/lightsail/availabilityzones.png" alt="Zones Available" title="Zones Available">
+<p>Price starts from $5USD (same price as DigitalOcean) to $80USD and the instance type you can choose as base OS are Amazon Linux 2016.09.0 or Ubuntu 16.04 LTS, which are kind of limited but I got this is only a preview. However, there is an alternative to deploy a full application stack like for example Wordpress, Drupal, GitLab or the classic LAMP. </p>
+<img src="/en/2016/12/08/lightsail/instancetypes.png" alt="Instance Types Available" title="Instance Types Available">
+<p>Once you have deployed an instance, there is a panel that allows you to SSH using your browser, some basic metrics like CPU, Network utilisation, Firewall/SecurityGroup, Snapshots, History and Delete.</p>
+<img src="/en/2016/12/08/lightsail/graphs.png" alt="Graphs and Statistics" title="Graphs and Statistics">
+<p>Going back to the main Resorces page, you are allowed to create and hosted your DNS name with LightSail for free, all you need to do is click on “Create other resources –&gt; DNS Zone” and write down the name of your domain, after previous step completed you can go to your NIC and update your DNS servers, easy peasy. Another neat thing, the service allows you to create and assign up to 5 Public IP to your instance for “free”, so no need to extra payment for that.</p>
+<img src="/en/2016/12/08/lightsail/dnszone.png" alt="FREE DNS Zone" title="FREE DNS Zone">
+<p>In overal, AWS LightSail it is an alternative to all the other VPS providers out there with the advantage that you can integrate your instance with other AWS stacks like RDS, ElastiCache and so on, the magic happens when you enable the “VPC Peering option in your account”.</p>
+<img src="/en/2016/12/08/lightsail/vpcpeering.png" alt="Magic Button - VPC Peering" title="Magic Button - VPC Peering">
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.korporation.cl/en/2016/12/08/lightsail/" data-id="ciwhkrawm0000up4hitt5133u" class="article-share-link">Share</a>
+      
+        <a href="http://www.korporation.cl/en/2016/12/08/lightsail/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/AWS/">AWS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DevOps/">DevOps</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lightsail/">lightsail</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-new-beginning" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/en/2016/11/27/new-beginning/" class="article-date">
@@ -111,7 +163,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.korporation.cl/en/2016/11/27/new-beginning/" data-id="ciwesut4n00024v4hjiglerr5" class="article-share-link">Share</a>
+      <a data-url="http://www.korporation.cl/en/2016/11/27/new-beginning/" data-id="ciwhkmbd800021c4hu833pqxm" class="article-share-link">Share</a>
       
         <a href="http://www.korporation.cl/en/2016/11/27/new-beginning/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -134,7 +186,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Default/" style="font-size: 10px;">Default</a>
+      <a href="/tags/AWS/" style="font-size: 10px;">AWS</a> <a href="/tags/Default/" style="font-size: 10px;">Default</a> <a href="/tags/DevOps/" style="font-size: 10px;">DevOps</a> <a href="/tags/lightsail/" style="font-size: 10px;">lightsail</a>
     </div>
   </div>
 
@@ -143,7 +195,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
     </div>
   </div>
 
@@ -154,6 +206,10 @@ ga('send', 'pageview');
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/en/2016/12/08/lightsail/">AWS Lightsail overview</a>
+          </li>
         
           <li>
             <a href="/en/2016/11/27/new-beginning/">new beginning</a>
